@@ -218,18 +218,27 @@ h2 {
 }
 
 .project-copy h2 {
-  max-width: 18ch;
+  width: 100%;
+  max-width: none;
   font-size: clamp(1.2rem, 2vw, 2rem);
   line-height: 1.02;
   letter-spacing: -0.05em;
   font-weight: 400;
+  color: var(--text);
+  text-align: left;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .project-copy p:last-child {
-  max-width: 30ch;
+  width: 100%;
+  max-width: none;
   font-size: 0.95rem;
   line-height: 1.35;
-  color: var(--muted);
+  color: var(--text);
+  text-align: left;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .site-footer {
