@@ -1,148 +1,185 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Golden Bell Temple Graphics</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Seoul Archive</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="portfolio-shell">
-      <header class="hero-grid">
-        <div class="brand-block">
-          <p class="brand-mark">Golden Bell Temple Graphics</p>
-        </div>
+    <main class="stage" aria-label="Seoul Archive portfolio intro">
+      <h1 class="tagline">Archiving the unofficial graphics of Seoul.</h1>
 
-        <div class="meta-block">
-          <a href="mailto:studio@goldenbelltemple.graphics">studio@goldenbelltemple.graphics</a>
-          <p>320 Itaewon-dong, Yongsan-gu, Seoul, South Korea</p>
-        </div>
+      <div class="brand" aria-label="Seoul Archive">
+        <span class="brand-word brand-word--seoul">Seoul</span>
+        <span class="brand-word brand-word--archive">Archive</span>
+      </div>
 
-        <div class="intro-block">
-          <p>
-            Golden Bell Temple Graphics shapes calm, precise visual systems for
-            printed matter, exhibitions, identities, and image-led storytelling.
-            <br />
-            For commissions, conversations, and portfolio requests, reach out by
-            email or leave a note for a studio reply.
-          </p>
-        </div>
-      </header>
-
-      <nav class="index-nav" aria-label="Portfolio sections">
-        <a href="#projects">Projects</a>
-        <a href="#archive">More Work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+      <nav class="topics" aria-label="Archive categories">
+        <a href="#" class="topic topic--vending">Vanding Muchine</a>
+        <a href="#" class="topic topic--street">Street Advertisement</a>
+        <a href="#" class="topic topic--hof">Hof(korean pub)</a>
       </nav>
 
-      <section class="projects-table" id="projects" aria-label="Selected projects">
-        <article class="project-row">
-          <div class="project-media" aria-hidden="true">
-            <div class="media-frame">
-              <img
-                class="project-visual visual-left"
-                src="./assets/projects/tagheuer-page.png"
-                alt=""
-              />
-              <span class="media-tag">LVMH Korea / 2025</span>
-            </div>
-          </div>
-          <div class="project-copy">
-            <p class="project-index">01</p>
-            <h2>태그호이어 코리아 신년 패키지 디자인</h2>
-            <p>
-              LVMH 코리아에서 운영하는 시계 브랜드 태그호이어의 신년 시즌
-              기념 패키지를 디자인했습니다. F1 코리아 그랑프리의 귀환을
-              모티프로 경주, 승리, 속도를 시각 언어로 풀어낸 프로젝트입니다.
-            </p>
+      <section class="detail-copy" aria-label="Archive descriptions">
+        <article class="detail-column detail-column--vending">
+          <h2 class="detail-title" data-text="Seoul Vending Machine&#10;Archive"></h2>
+          <div class="detail-body">
+            <p class="detail-index" data-text="(1)"></p>
+            <p
+              class="detail-description"
+              data-text="An archive of Seoul’s vending machines,&#10;recording how the city handles small needs&#10;through quiet, unmanned objects."
+            ></p>
           </div>
         </article>
-
-        <article class="project-row" id="archive">
-          <div class="project-media" aria-hidden="true">
-            <div class="media-frame">
-              <img
-                class="project-visual visual-center"
-                src="./assets/projects/editors-covers.png"
-                alt=""
-              />
-              <span class="media-tag">The Hyundai Seoul / Popup Space</span>
-            </div>
-          </div>
-          <div class="project-copy">
-            <p class="project-index">02</p>
-            <h2>더현대서울 팝업스토어 디자인, 언커먼하우스</h2>
-            <p>
-              약 50년간 국내에서 가구를 만들어온 언커먼하우스의 더현대서울
-              팝업스토어를 디자인하고 시공했습니다. 5층 약 40평 규모의 공간
-              전체 동선과 시각물, 전시 장치를 함께 설계한 프로젝트입니다.
-            </p>
+        <article class="detail-column detail-column--street">
+          <h2 class="detail-title" data-text="Seoul Street Advertisement&#10;Archive"></h2>
+          <div class="detail-body">
+            <p class="detail-index" data-text="(2)"></p>
+            <p
+              class="detail-description"
+              data-text="A collection of flyers, stickers, and urgent&#10;notices that reveal Seoul’s temporary&#10;language of work, rent, sales, and survival."
+            ></p>
           </div>
         </article>
-
-        <article class="project-row">
-          <div class="project-media" aria-hidden="true">
-            <div class="media-frame">
-              <img
-                class="project-visual visual-right"
-                src="./assets/projects/suntree-house.png"
-                alt=""
-              />
-              <span class="media-tag">Branding / Operation / Space</span>
-            </div>
-          </div>
-          <div class="project-copy" id="about">
-            <p class="project-index">03</p>
-            <h2>Suntree House</h2>
-            <p>
-              서울시 용산구 이태원에 위치한 공유오피스 썬트리하우스의
-              브랜딩부터 공간 운영 규칙과 홍보물 전반까지 디자인했습니다.
-              브랜드의 톤과 운영 감각이 함께 읽히도록 장기적으로 다듬은
-              작업입니다.
-            </p>
-          </div>
-        </article>
-
-        <article class="project-row">
-          <div class="project-media" aria-hidden="true">
-            <div class="media-frame">
-              <img
-                class="project-visual visual-center"
-                src="./assets/projects/editors-covers.png"
-                alt=""
-              />
-              <span class="media-tag">Yogiyo / Editorial Set</span>
-            </div>
-          </div>
-          <div class="project-copy" id="contact">
-            <p class="project-index">04</p>
-            <h2>요기요 엽서북, (주) 위대한상상</h2>
-            <p>
-              요기요의 푸드레터 카테고리를 위해 햄버거, 커피, 피클을 주제로 한
-              24페이지 엽서북을 디자인했습니다. 엽서북과 함께 포스터 3종,
-              스티커 3종까지 확장한 인쇄물 세트입니다.
-            </p>
+        <article class="detail-column detail-column--hof">
+          <h2 class="detail-title" data-text="Seoul Hof(korean pub)&#10;Archive"></h2>
+          <div class="detail-body">
+            <p class="detail-index" data-text="(3)"></p>
+            <p
+              class="detail-description"
+              data-text="A visual record of Seoul’s hof bars.&#10;Bright lights, draft beer, old menus and the&#10;everyday spaces where the city exhales."
+            ></p>
           </div>
         </article>
       </section>
 
-      <footer class="site-footer">
-        <p>© Golden Bell Temple Graphics 2026</p>
-        <div class="footer-contact">
-          <a href="mailto:studio@goldenbelltemple.graphics">studio@goldenbelltemple.graphics</a>
-          <a href="tel:+82200000000">+82 (2) 0000 0000</a>
-        </div>
-      </footer>
+      <section class="image-field" aria-label="Selected archive previews">
+        <figure class="archive-image archive-image--vending" data-book="vending">
+          <img
+            src="스프레드페이지/북페어_포폴작업중(작업소개).jpg"
+            alt="Seoul vending machine archive spread"
+          />
+        </figure>
+        <figure class="archive-image archive-image--hof" data-book="hof">
+          <img
+            src="스프레드페이지/북페어_포폴작업중(작업소개)9.jpg"
+            alt="Seoul HOF archive spread"
+          />
+        </figure>
+        <figure class="archive-image archive-image--street" data-book="street">
+          <img
+            src="스프레드페이지/북페어_포폴작업중(작업소개)6.jpg"
+            alt="Seoul street advertisement archive spread"
+          />
+        </figure>
+      </section>
+
+      <a class="about" href="#about">about GBT Pres</a>
+
+      <section class="book-view" aria-label="Selected book detail">
+        <button class="back-button" type="button" aria-label="Back to archive overview">←</button>
+        <aside class="book-info">
+          <div class="book-info-inner">
+            <h2 class="book-title">Seoul Vending Machine<br />Archive</h2>
+            <p class="book-index">(1)</p>
+            <div class="book-description">
+              <p>
+                On the walls, utility poles, construction fences, and glass
+                doors of Seoul, there are pieces of information that do not
+                appear on official maps: labor agency ads, boarding house
+                notices, tutoring flyers, warehouse clearance sales, demolition
+                signs, job postings, urgent sale announcements. They are
+                another way the city explains itself.
+              </p>
+              <p>
+                These flyers and stickers are not made to be beautiful. They
+                are made to be read quickly and to survive outdoors. Bold
+                letters, fluorescent paper, repeated phone numbers,
+                exaggerated phrases, torn edges, and layers of tape reveal
+                traces of someone’s livelihood, need, anxiety, and opportunity.
+                Across Seoul, these small advertisements appear and disappear
+                every day. They are too small to become official signs, yet too
+                urgent to exist only online.
+              </p>
+              <p>
+                This book records how the city looks for workers, rents rooms,
+                sells goods, and calls out for chances through papers and
+                stickers attached to the street. This is an archive of Seoul’s
+                temporary language a city continually pasted, torn away, and
+                pasted over again.
+              </p>
+            </div>
+            <figure class="book-selected-image">
+              <img
+                src="스프레드페이지/북페어_포폴작업중(작업소개).jpg"
+                alt="Selected archive book"
+              />
+            </figure>
+          </div>
+        </aside>
+        <div class="book-divider" aria-hidden="true"></div>
+        <section class="book-canvas" aria-label="Zoomable book pages">
+          <div class="book-map">
+            <figure class="map-page map-page--hero" data-book="vending">
+              <img
+                src="스프레드페이지/북페어_포폴작업중(작업소개).jpg"
+                alt="Seoul vending machine book cover spread"
+              />
+            </figure>
+            <figure class="map-page map-page--vending-a" data-book="vending">
+              <img
+                src="스프레드페이지/북페어_포폴작업중(작업소개)3.jpg"
+                alt="Vending machine archive spread"
+              />
+            </figure>
+            <figure class="map-page map-page--vending-b" data-book="vending">
+              <img
+                src="스프레드페이지/북페어_포폴작업중(작업소개)4.jpg"
+                alt="Vending machine detail spread"
+              />
+            </figure>
+            <figure class="map-page map-page--street-a" data-book="street">
+              <img
+                src="스프레드페이지/북페어_포폴작업중(작업소개)6.jpg"
+                alt="Street advertisement archive spread"
+              />
+            </figure>
+            <figure class="map-page map-page--street-b" data-book="street">
+              <img
+                src="스프레드페이지/북페어_포폴작업중(작업소개)5.jpg"
+                alt="Street advertisement cover spread"
+              />
+            </figure>
+            <figure class="map-page map-page--street-c" data-book="street">
+              <img
+                src="스프레드페이지/북페어_포폴작업중(작업소개)7.jpg"
+                alt="Street advertisement spread"
+              />
+            </figure>
+            <figure class="map-page map-page--hof-a" data-book="hof">
+              <img
+                src="스프레드페이지/북페어_포폴작업중(작업소개)9.jpg"
+                alt="Hof archive cover spread"
+              />
+            </figure>
+            <figure class="map-page map-page--hof-b" data-book="hof">
+              <img
+                src="스프레드페이지/북페어_포폴작업중(작업소개)10.jpg"
+                alt="Hof archive interior spread"
+              />
+            </figure>
+            <figure class="map-page map-page--hof-c" data-book="hof">
+              <img
+                src="스프레드페이지/북페어_포폴작업중(작업소개)11.jpg"
+                alt="Hof archive exterior spread"
+              />
+            </figure>
+          </div>
+        </section>
+      </section>
     </main>
-    <div class="pixel-cursor" aria-hidden="true">
-      <span class="cursor-flame flame-glow"></span>
-      <span class="cursor-flame flame-core"></span>
-      <span class="cursor-ember ember-a"></span>
-      <span class="cursor-ember ember-b"></span>
-      <span class="cursor-ember ember-c"></span>
-      <span class="cursor-ember ember-d"></span>
-    </div>
-    <script src="./script.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
