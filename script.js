@@ -19,9 +19,9 @@ window.addEventListener("DOMContentLoaded", () => {
     vending: {
       title: "Seoul Vending Machine<br />Archive",
       index: "(1)",
-      x: 80,
-      y: 90,
-      scale: 0.92,
+      x: 40,
+      y: 96,
+      scale: 0.82,
       image: "스프레드페이지/북페어_포폴작업중(작업소개).jpg",
       paragraphs: [
         "On the walls, utility poles, construction fences, and glass doors of Seoul, there are pieces of information that do not appear on official maps: labor agency ads, boarding house notices, tutoring flyers, warehouse clearance sales, demolition signs, job postings, urgent sale announcements. They are another way the city explains itself.",
@@ -32,8 +32,8 @@ window.addEventListener("DOMContentLoaded", () => {
     street: {
       title: "Seoul Street Advertisement<br />Archive",
       index: "(2)",
-      x: 10,
-      y: 78,
+      x: 30,
+      y: 88,
       scale: 0.78,
       image: "스프레드페이지/북페어_포폴작업중(작업소개)6.jpg",
       paragraphs: [
@@ -45,8 +45,8 @@ window.addEventListener("DOMContentLoaded", () => {
     hof: {
       title: "Seoul Hof(korean pub)<br />Archive",
       index: "(3)",
-      x: -80,
-      y: 38,
+      x: 20,
+      y: 78,
       scale: 0.76,
       image: "스프레드페이지/북페어_포폴작업중(작업소개)9.jpg",
       paragraphs: [
@@ -115,7 +115,7 @@ window.addEventListener("DOMContentLoaded", () => {
   resetTypedText();
   setBookCopy("vending");
 
-  stage.addEventListener("click", () => {
+  const startIntro = () => {
     if (document.body.classList.contains("intro-started")) return;
 
     document.body.classList.add("intro-started");
@@ -123,7 +123,10 @@ window.addEventListener("DOMContentLoaded", () => {
       document.body.classList.add("detail-started");
       setTimer(typeDetailText, 620);
     }, 13750);
-  });
+  };
+
+  setTimer(startIntro, 0);
+  stage.addEventListener("click", startIntro);
 
   archiveImages.forEach((image) => {
     image.addEventListener("click", (event) => {
@@ -203,5 +206,6 @@ window.addEventListener("DOMContentLoaded", () => {
     resetTypedText();
     setBookCopy("vending");
     restartAnimations();
+    setTimer(startIntro, 0);
   });
 });
