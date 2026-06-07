@@ -313,7 +313,7 @@ body.detail-started .archive-image {
   align-self: start;
   justify-self: start;
   width: var(--detail-image-width);
-  height: var(--detail-image-height);
+  height: auto;
   max-width: 100%;
   margin-top: 49.45vh;
   grid-row: 1;
@@ -321,6 +321,11 @@ body.detail-started .archive-image {
   opacity: 1;
   transform: translate(0, 0);
   cursor: pointer;
+}
+
+body.detail-started .archive-image img {
+  height: auto;
+  object-fit: contain;
 }
 
 body.detail-started .archive-image--vending {
