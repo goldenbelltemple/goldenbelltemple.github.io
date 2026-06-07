@@ -121,8 +121,8 @@ window.addEventListener("DOMContentLoaded", () => {
     document.body.classList.add("intro-started");
     setTimer(() => {
       document.body.classList.add("detail-started");
-      setTimer(typeDetailText, 620);
-    }, 13750);
+      setTimer(typeDetailText, 520);
+    }, 11460);
   };
 
   setTimer(startIntro, 0);

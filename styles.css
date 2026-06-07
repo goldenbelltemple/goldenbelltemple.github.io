@@ -118,11 +118,11 @@ body.intro-started .tagline {
 }
 
 body.intro-started .brand-word--seoul {
-  animation: seoul-split 3.4s linear forwards;
+  animation: seoul-split 2.83s linear forwards;
 }
 
 body.intro-started .brand-word--archive {
-  animation: archive-split 3.4s linear forwards;
+  animation: archive-split 2.83s linear forwards;
 }
 
 body.detail-started .brand,
@@ -162,19 +162,19 @@ body.detail-started .topics {
 }
 
 body.intro-started .topic {
-  animation: topic-enter 1.9s var(--ease) forwards;
+  animation: topic-enter 1.58s var(--ease) forwards;
 }
 
 body.intro-started .topic--vending {
-  animation-delay: 8.16s;
+  animation-delay: 6.8s;
 }
 
 body.intro-started .topic--street {
-  animation-delay: 8.44s;
+  animation-delay: 7.03s;
 }
 
 body.intro-started .topic--hof {
-  animation-delay: 8.72s;
+  animation-delay: 7.27s;
 }
 
 .detail-copy {
@@ -292,15 +292,15 @@ body.detail-started .image-field {
 }
 
 body.intro-started .archive-image--vending {
-  animation: vending-enter 2.5s var(--ease) 10.1s forwards;
+  animation: vending-enter 2.08s var(--ease) 8.42s forwards;
 }
 
 body.intro-started .archive-image--hof {
-  animation: hof-enter 2.5s var(--ease) 10.36s forwards;
+  animation: hof-enter 2.08s var(--ease) 8.63s forwards;
 }
 
 body.intro-started .archive-image--street {
-  animation: street-enter 2.5s var(--ease) 10.6s forwards;
+  animation: street-enter 2.08s var(--ease) 8.83s forwards;
 }
 
 body.detail-started .archive-image {
@@ -583,7 +583,7 @@ body.book-open .book-view {
 }
 
 body.intro-started .about {
-  animation: about-enter 1.6s var(--ease) 8.9s forwards;
+  animation: about-enter 1.33s var(--ease) 7.42s forwards;
 }
 
 body.book-open .about {
