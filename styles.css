@@ -242,6 +242,7 @@ body.detail-started .image-field {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   column-gap: var(--detail-gap);
+  align-items: start;
   padding: 0 var(--detail-pad-x);
   pointer-events: auto;
 }
@@ -310,10 +311,12 @@ body.detail-started .archive-image {
   top: auto;
   bottom: auto;
   align-self: start;
+  justify-self: start;
   width: var(--detail-image-width);
   height: var(--detail-image-height);
   max-width: 100%;
   margin-top: 49.45vh;
+  grid-row: 1;
   aspect-ratio: auto;
   opacity: 1;
   transform: translate(0, 0);
@@ -322,14 +325,17 @@ body.detail-started .archive-image {
 
 body.detail-started .archive-image--vending {
   grid-column: 1;
+  order: 1;
 }
 
 body.detail-started .archive-image--street {
   grid-column: 2;
+  order: 2;
 }
 
 body.detail-started .archive-image--hof {
   grid-column: 3;
+  order: 3;
 }
 
 body.book-open .detail-copy,

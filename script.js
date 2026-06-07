@@ -43,7 +43,7 @@ window.addEventListener("DOMContentLoaded", () => {
       ],
     },
     hof: {
-      title: "Seoul Hof(korean pub)<br />Archive",
+      title: "Seoul Hof (Korean Pub)<br />Archive",
       index: "(3)",
       x: 20,
       y: 78,
